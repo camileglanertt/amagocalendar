@@ -1,0 +1,49 @@
+nav .container a{
+    font-size:19px  !important;
+}
+
+.imagem{
+    margin-top: 110px !important;
+    margin:auto !important;
+}
+
+.input{
+    margin-top: 200px !important;
+    margin: auto !important;
+}
+
+#icon{
+    font-size:50px !important;
+    left: 50% !important;
+}
+
+.botao{
+    border-radius: 100% !important;
+    width:70px !important;
+    height:70px !important;
+    background-color: #f7202e !important;
+    border-color:#f7202e !important;
+    padding-right: 3.5% !important
+}
+
+.botao:hover{
+    background-color: #f73d4a !important;
+    border-color:#f7202e !important;
+}
+
+.botao:active{
+    background-color: #b72f39 !important;
+    border-color:#f7202e !important
+}
+
+path{
+    margin-left: 5% !important;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width: 700px !important
+}
+
+.caret{
+    display: none !important
+}

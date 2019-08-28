@@ -1,0 +1,130 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.center-container{
+    margin:auto;
+    text-align: center !important;
+}
+label.error{
+    color:red
+}
+
+h1{
+    margin-bottom: 8%;
+}
+
+#lembrar{
+    margin-right: 4% !important;
+}
+
+
+.botao{
+    margin-top: 3% !important;
+    padding-bottom: 0;
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: #f7202e;
+    border-color:#f7202e;
+}
+
+.botao2{
+    margin-top: 30% !important;
+    padding-bottom: 0;
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: #a7a7a7;
+    border-color:#a7a7a7;
+}
+
+.botao:hover{
+    background-color: #f73d4a;
+    border-color:#f7202e;
+}
+.botao2:hover{
+    background-color: black;
+    border-color:#444242;
+}
+
+.botao:active{
+    background-color: #b72f39;
+    border-color:#f7202e;
+}
+
+#criar{
+    text-decoration: none;
+    color: black;
+}
+
+#criar:hover{
+    text-decoration: none;
+    color: #f7202e
+}
+
+#esqueci{
+    text-decoration: none;
+    color:  #f7202e;
+}
+
+#img{
+    width: 100%;
+}
+
+.container{
+    margin-top: 25%;
+}
+
+.botao{
+    margin-top: 30% !important
+}
+
+#coll{
+    background-image: url('../img/folha.jpg'); 
+    height:1000px; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+@media only screen and (max-width: 700px) {
+    .col{
+        background-image: none;
+        height: 0px;
+        flex-basis: auto;
+    }
+    element.style {
+        background-image: none;
+        height: 0px;
+    }
+    element.style {
+        background-image: none; 
+        height: 0px; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    #coll {
+        background-image: none; 
+        height: 0px; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+    .botao {
+        margin-bottom: 5% !important;
+        padding-bottom: 0;
+        font-size: 30px;
+        border-radius: 100%;
+        background-color: #f7202e;
+        border-color: #f7202e;
+        float: right;
+    }
+    #criar {
+        text-align: center !important;
+    }
+    *{
+        overflow: visible !important;
+        position: auto !important;
+    }
+    body{
+        overflow: visible !important;
+        position: auto !important;
+    }
+}

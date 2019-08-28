@@ -1,0 +1,10 @@
+.estrelas{
+    margin-left: 16px !important
+}
+
+.card-profile .card-avatar{
+    max-width: 130px !important;
+    max-height: 130px !important;
+    min-width: 130px !important;
+    min-height: 130px !important
+}

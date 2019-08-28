@@ -1,0 +1,22 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.p{
+    color: #f7202e;
+}
+
+.col-md-auto{
+    margin-left: 10%;
+}
+
+.select2-container{
+    width: 446px !important
+}
+
+.card-profile .card-avatar{
+    max-width: 130px !important;
+    max-height: 130px !important;
+    min-width: 130px !important;
+    min-height: 130px !important
+}

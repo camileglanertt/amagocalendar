@@ -1,0 +1,103 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.center-container{
+    margin:auto;
+    text-align: center !important;
+}
+
+h1{
+    margin-bottom: 8%;
+}
+
+.empresas{
+    display: none;
+    overflow:auto !important
+}
+
+.autonomos{
+    display: none;
+}
+
+.ambos{
+    display: none;
+}
+.botao{
+    margin-top: 3% !important;
+    padding-bottom: 0;
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: #f7202e;
+    border-color:#f7202e;
+}
+
+.botao2{
+    margin-top: 3% !important;
+    padding-bottom: 0;
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: #a7a7a7;
+    border-color:#a7a7a7;
+}
+
+.botao:hover{
+    background-color: #f73d4a;
+    border-color:#f7202e;
+}
+.botao2:hover{
+    background-color: black;
+    border-color:#444242;
+}
+
+.botao:active{
+    background-color: #b72f39;
+    border-color:#f7202e;
+}
+
+.vertical-align{
+    margin-top: 30%;
+}
+
+.margin-top{
+    margin-top: 0% !important;
+    overflow:auto !important;
+}
+
+#coll{
+    background-image: url('../img/folha.jpg'); 
+    height:1000px; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    .col{
+        background-image: none;
+        height: 0px;
+        flex-basis: auto;
+    }
+    element.style {
+        background-image: none;
+        height: 0px;
+    }
+    element.style {
+        background-image: none; 
+        height: 0px; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    #coll {
+        background-image: none; 
+        height: 0px; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+    .botao{
+        float: right;
+    }
+}
+label.error{
+    color:red
+}
+

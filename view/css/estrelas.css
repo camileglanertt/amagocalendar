@@ -1,0 +1,19 @@
+.estrelas input[type=radio]{
+    display: none;
+
+}.estrelas label i.fa:before{
+    content: '\f005';
+    color: #FC0;
+}.estrelas  input[type=radio]:checked  ~ label i.fa:before{
+    color: #CCC;
+}
+
+label{
+    font-size: 20px !important;
+}
+
+@media (min-width: 576px){
+    .modal-dialog{
+        max-width: 1000px !important;
+       }
+    }
